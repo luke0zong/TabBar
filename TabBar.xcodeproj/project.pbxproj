@@ -53,6 +53,7 @@
 		420C5A322711FC3B007377A2 /* TabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		420C5A3F2711FF0F007377A2 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		420C5A4127120229007377A2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		420C5A4327120BBC007377A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		420C5A032711FC3A007377A2 = {
 			isa = PBXGroup;
 			children = (
+				420C5A4327120BBC007377A2 /* README.md */,
 				420C5A0E2711FC3A007377A2 /* TabBar */,
 				420C5A252711FC3B007377A2 /* TabBarTests */,
 				420C5A2F2711FC3B007377A2 /* TabBarUITests */,
