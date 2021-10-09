@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		420C5A102711FC3A007377A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A0F2711FC3A007377A2 /* AppDelegate.swift */; };
 		420C5A122711FC3A007377A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A112711FC3A007377A2 /* SceneDelegate.swift */; };
-		420C5A142711FC3A007377A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A132711FC3A007377A2 /* ViewController.swift */; };
+		420C5A142711FC3A007377A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A132711FC3A007377A2 /* LoginViewController.swift */; };
 		420C5A172711FC3A007377A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420C5A152711FC3A007377A2 /* Main.storyboard */; };
 		420C5A192711FC3B007377A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420C5A182711FC3B007377A2 /* Assets.xcassets */; };
 		420C5A1C2711FC3B007377A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420C5A1A2711FC3B007377A2 /* LaunchScreen.storyboard */; };
 		420C5A272711FC3B007377A2 /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A262711FC3B007377A2 /* TabBarTests.swift */; };
 		420C5A312711FC3B007377A2 /* TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A302711FC3B007377A2 /* TabBarUITests.swift */; };
 		420C5A332711FC3B007377A2 /* TabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A322711FC3B007377A2 /* TabBarUITestsLaunchTests.swift */; };
+		420C5A402711FF0F007377A2 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A3F2711FF0F007377A2 /* MainTabController.swift */; };
+		420C5A4227120229007377A2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C5A4127120229007377A2 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		420C5A0C2711FC3A007377A2 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420C5A0F2711FC3A007377A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		420C5A112711FC3A007377A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		420C5A132711FC3A007377A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		420C5A132711FC3A007377A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		420C5A162711FC3A007377A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		420C5A182711FC3B007377A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420C5A1B2711FC3B007377A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		420C5A2C2711FC3B007377A2 /* TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420C5A302711FC3B007377A2 /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
 		420C5A322711FC3B007377A2 /* TabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		420C5A3F2711FF0F007377A2 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		420C5A4127120229007377A2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				420C5A0F2711FC3A007377A2 /* AppDelegate.swift */,
 				420C5A112711FC3A007377A2 /* SceneDelegate.swift */,
-				420C5A132711FC3A007377A2 /* ViewController.swift */,
+				420C5A132711FC3A007377A2 /* LoginViewController.swift */,
 				420C5A152711FC3A007377A2 /* Main.storyboard */,
 				420C5A182711FC3B007377A2 /* Assets.xcassets */,
 				420C5A1A2711FC3B007377A2 /* LaunchScreen.storyboard */,
 				420C5A1D2711FC3B007377A2 /* Info.plist */,
+				420C5A3F2711FF0F007377A2 /* MainTabController.swift */,
+				420C5A4127120229007377A2 /* FirstViewController.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420C5A142711FC3A007377A2 /* ViewController.swift in Sources */,
+				420C5A4227120229007377A2 /* FirstViewController.swift in Sources */,
+				420C5A142711FC3A007377A2 /* LoginViewController.swift in Sources */,
 				420C5A102711FC3A007377A2 /* AppDelegate.swift in Sources */,
+				420C5A402711FF0F007377A2 /* MainTabController.swift in Sources */,
 				420C5A122711FC3A007377A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
